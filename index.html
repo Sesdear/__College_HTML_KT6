@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Панель — статистика</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+    <header>
+        <h1>Панель</h1>
+        <nav aria-label="Главное меню">
+            <a href="#statistics">Главная</a>
+            <a href="#orders">Заказы</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+    <aside>
+        <h2>Разделы</h2>
+        <nav aria-label="Разделы панели">
+            <a href="#statistics">Статистика</a>
+            <a href="#orders">Заказы</a>
+            <a href="#settings">Настройки</a>
+        </nav>
+        <p class="status">Демо-режим</p>
+    </aside>
+    <main id="statistics">
+        <h2>Статистика за неделю</h2>
+        <p>Демонстрационные данные интернет-магазина</p>
+        <div class="catalog">
+            <article class="card card-featured">
+                <h3>Выручка</h3>
+                <strong>148 500 ₽</strong>
+                <img class="chart" src="img/revenue.svg" alt="Выручка с понедельника по воскресенье: 12, 18, 15, 24, 20, 28 и 31,5 тысячи рублей">
+                <p>Общая выручка за семь дней</p>
+            </article>
+            <article class="card" id="orders">
+                <h3>Заказы</h3>
+                <strong>124</strong>
+                <p>Количество оформленных заказов</p>
+            </article>
+            <article class="card">
+                <h3>Посетители</h3>
+                <strong>2 840</strong>
+                <p>Посещения сайта за неделю</p>
+            </article>
+            <article class="card">
+                <h3>Средний чек</h3>
+                <strong>1 198 ₽</strong>
+                <p>Средняя стоимость заказа</p>
+            </article>
+            <article class="card">
+                <h3>Конверсия</h3>
+                <strong>4,37%</strong>
+                <p>Отношение заказов к посещениям</p>
+            </article>
+            <article class="card" id="settings">
+                <h3>Товары в наличии</h3>
+                <strong>86</strong>
+                <p>Активные позиции каталога</p>
+                <small>Обновление статистики: еженедельно</small>
+            </article>
+        </div>
+    </main>
+    <footer id="contacts">Панель · Контакты: <a href="mailto:info@example.com">info@example.com</a></footer>
+</body>
+</html>
