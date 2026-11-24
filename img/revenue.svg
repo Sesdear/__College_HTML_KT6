@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" role="img">
+    <title>Выручка за неделю</title>
+    <g stroke="#d5dce5" stroke-width="1">
+        <path d="M8 125H412 M8 85H412 M8 45H412"/>
+    </g>
+    <g fill="#245da8">
+        <rect x="14" y="77" width="40" height="48"/>
+        <rect x="73" y="53" width="40" height="72"/>
+        <rect x="132" y="65" width="40" height="60"/>
+        <rect x="191" y="29" width="40" height="96"/>
+        <rect x="250" y="45" width="40" height="80"/>
+        <rect x="309" y="13" width="40" height="112"/>
+        <rect x="368" y="0" width="40" height="125"/>
+    </g>
+    <g font-family="Arial, sans-serif" font-size="14" fill="#243447" text-anchor="middle">
+        <text x="34" y="145">Пн</text><text x="93" y="145">Вт</text>
+        <text x="152" y="145">Ср</text><text x="211" y="145">Чт</text>
+        <text x="270" y="145">Пт</text><text x="329" y="145">Сб</text>
+        <text x="388" y="145">Вс</text>
+    </g>
+</svg>
